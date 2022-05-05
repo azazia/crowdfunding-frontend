@@ -5,12 +5,12 @@
             <div class="relative">
               <nuxt-link to="/upload-filled">
                 <img
-                  src="/avatar.jpg"
+                  src="/avatar-filled.jpg"
                   alt=""
                   class="rounded-full border-white border-4"
                 />
                 <img
-                  src="/icon-avatar-add.svg"
+                  src="/icon-avatar-change.svg"
                   alt=""
                   class="absolute right-0 bottom-0 pb-2"
                 />
@@ -37,7 +37,7 @@
             <div class="mb-4">
               <button
                 @click="$router.push({ path: '/register-success' })"
-                class="block w-full bg-transparent border-white border hover:bg-white hover:bg-opacity-25 text-white font-light px-6 py-4 text-lg rounded-full"
+                class="block w-full bg-transparent border-white border hover:bg-green-button hover:border-green-button text-white font-light px-6 py-4 text-lg rounded-full"
               >
                 Skip
               </button>
