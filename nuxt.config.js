@@ -66,9 +66,9 @@ export default {
               method: 'get',
               propertyName: 'data'
             },
-        }
-      }
-    }
+        },
+      },
+    },
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
