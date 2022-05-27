@@ -48,7 +48,7 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: 'http://backer-backend.buildwithangga.id/',
+    baseURL: 'https://ricad-store.my.id',
   },
 
   auth: {
@@ -58,13 +58,13 @@ export default {
           login: {
               url: '/api/v1/sessions', 
               method: 'post',
-              propertyName: 'data.token'
+              propertyName: 'data.token',
              },
           logout: false,
           user: {
               url: '/api/v1/users/fetch', 
               method: 'get',
-              propertyName: 'data'
+              propertyName: 'data',
             },
         },
       },
